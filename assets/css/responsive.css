@@ -1,0 +1,93 @@
+/* responsive */
+/* PC */
+@media (min-width:1024px){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+
+}
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px){
+    #content .content-section{
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width:739px){
+ #nav{
+        display: block;
+    }
+    
+    
+#nav .subnav {
+    position: initial;
+    background-color: #333;
+}
+#nav .subnav a{
+    color: white;
+    padding: 4px 12px;
+}
+    #nav >li{
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+    float: right;
+    padding: 0px 21px;
+    position: absolute;
+    top:0;
+    right: 0;
+
+}
+#content .content-section{
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+      
+      }
+      #content .contact-place{
+          padding-bottom: 50px;
+      }
+
+#content .member-item{
+width: 100%;
+padding-bottom: 40px;
+}
+.place-item{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.contact-place{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.contact-form{
+    width: 100%;
+}
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+#header .mobile-menu-btn:hover .menu-icon{
+    color: black;
+    }
+#header .menu-icon
+{
+    color: white;
+    font-size: 20px;
+    line-height: 46px;
+}
+}
